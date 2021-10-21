@@ -1,0 +1,18 @@
+{
+	"development":{
+		"main":"http://localhost:3000/"
+	},
+	"main": "index.html",
+	"logo": "logo.png",
+	"preload":"preload.js",
+	"features": [
+		{
+		  "code": "youdao",
+		  "explain": "一个简单的翻译插件",
+			"cmds":["translate", "翻译","dict",{
+				"type":"over",
+				"label":"翻译"
+			}]
+		}
+	]
+}
